@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main_wrap {
+    width: 100%;
+}
+
+.wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Logo Section */
+.haeder {
+    overflow: hidden;
+    padding: 60px 0px;
+}
+
+.logo {
+    float: left;
+}
+
+.logo > img {
+    width: 100%;
+}
+
+/* Header Nav Section */
+
+.nav > ul {
+    float: right;
+}
+
+.nav > ul > li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav > ul > li > a {
+    text-decoration: none;
+    color: #69666685;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 5px 0px 5px 80px;
+    display: block;
+    text-transform: uppercase;
+}
+
+/* Banner Section */
+
+.banner > img {
+    width: 100%;
+}
+
+/* Content Section */
+.content {
+    padding: 70px;
+}
+
+.content > h5 {
+    text-transform: uppercase;
+    padding: 20px 0;
+    color: #908d8d85;
+    font-size: 18px;
+}
+
+.content > h2 {
+    font-size: 35px;
+    padding: 20px 0;
+    color: #000000a6;
+    padding-top: 0;
+}
+
+.content > p {
+    color: #000000b8;
+    text-align: justify;
+    font-size: 18PX;
+}
+
+/* Content Section */
+.gallery {
+    padding: 70px;
+    padding-top: 0;
+}
+
+.gallery_single {
+    width: 47%;
+    display: inline-block;
+}
+
+.gallery_single:first-child {
+    margin-right: 20px;
+}
+
+.gallery_single:last-child {
+    margin-left: 20px;
+}
+
+.gallery_single > img {
+    width: 100%;
+}
+
+.gallery_single > h6 {
+    text-transform: uppercase;
+    padding: 20px 0;
+    color: #908d8d85;
+    font-size: 18px;
+}
+
+.gallery_single > h2 {
+    font-size: 30px;
+    padding: 20px 0;
+    color: #000000a6;
+    padding-top: 0;
+}
+
+.gallery_single > p {
+    color: #000000b8;
+    text-align: justify;
+    font-size: 18PX;
+}
+
+/* Footer Section */
+.footer {
+
+    padding: 20px 0px 30px 70px;
+}
+
+.footer_bg {
+    background: #F0F0F0;
+
+}
+
+.footer_single {
+    width: 49%;
+    float: left;
+}
+
+.footer1 > p {
+    color: #000000;
+}
+
+.footer2 {
+    width: 49%;
+    float: right
+}
+
+.footer_single > ul {
+    float: right;
+
+}
+
+.footer_single > ul > li {
+    float: left;
+    list-style: none;
+    padding-right: 5px;
+}
+
+.footer2 > ul > li > a {
+    text-decoration: none;
+}
